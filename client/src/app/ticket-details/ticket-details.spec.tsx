@@ -4,7 +4,7 @@ import TicketDetails from './ticket-details';
 
 describe('TicketDetails', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<TicketDetails />);
+    const { baseElement } = render(<TicketDetails loading={true} tickets={[]} users={[]} handleChange={()=>{}}/>);
     expect(baseElement).toBeTruthy();
   });
 });
