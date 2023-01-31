@@ -1,0 +1,26 @@
+.tickets {
+}
+
+.listWrapper {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.item{
+    list-style-type: none;
+    margin: 0.5rem;
+    border: 2px solid blue;
+    padding: 0.5rem;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.itemCompleted {
+    background-color: green;
+}
+
+.inputAdd{
+    width: 100%;
+}
